@@ -96,20 +96,3 @@ model = pickle.load(open("model.pkl", "rb"))
 **Author:** [9022574361](https://www.google.com/search?q=https://github.com/9022574361)  
 **Project:** Blood Anomaly Detection System (Machine Learning)
 
------
-
-### 💡 Important Note on Images:
-
-To make these images show up on GitHub, you **must** run these lines in your Jupyter Notebook before you push to Git:
-
-```python
-# Run these in separate cells to save your images
-plt.figure(47); plt.savefig('diameter_dist.png')
-plt.figure(124); plt.savefig('rfecv_curve.png')
-plt.figure(127); plt.savefig('confusion_matrix.png')
-
-# Then run your git commands again
-!git add .
-!git commit -m "Added README and project plots"
-!git push origin main
-```
